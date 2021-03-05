@@ -247,8 +247,12 @@
     margin-top: 0;
   }
   .contact-tel {
-    top: 30%;
-    margin-top: 5vw;
+    top: 28%;
+    width: 100%;
+    height: 40%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .contact-tel__text {
     font-size: 4vw;
