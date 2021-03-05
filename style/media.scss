@@ -151,6 +151,10 @@
         &_link{
             font-size: 2.5vw;
         }
+        &_link::before,
+        &_link::after{
+            display: none;
+        }
     }
 
     .landing-page{
