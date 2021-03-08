@@ -1,13 +1,108 @@
 @import "_variables.scss";
 
-@media (min-width:601px) and (max-width:884px){
+@media (min-width:1001px) and (max-width:1500px){
+    .landing-page{
+        height: 95vh;
+        .title{
+            top: 5%;
+        }
+        &_title--white{
+            -webkit-text-stroke-width: 2px;
+        }
+
+        &::after{
+            width: 16vw;
+        }
+
+        &::before{
+            width: 16vw;
+        }
+
+        &_nd-title{
+            top: 48vh;
+        }
+
+        &_icon-roller{
+            width: 5vw;
+        }
+    }
+
+    .about{
+
+        &_title{
+            width: 18vw;
+        }
+
+        &_title-text{
+            font-size: 1.7vw;
+            display: block;
+        }
+
+        &_text{
+            font-size: .9rem;
+            right: 0%;
+        }
+    }
+
+    .services-title{
+        height: 20vh;
+        width: 72vw;
+        &_text{
+            font-size: 2.3vw;
+            left: 39%;
+            top:50%;
+        }
+        &_icon{
+            left: 43.5%;
+            bottom: -8%;
+        }
+    }
+
+    .services-text{
+        width: 90%;
+        &::before{
+            width: 40vw;
+        }
+    }
+
+    .contact-title{
+        &__text{
+            font-size: 2.3vw;
+        }
+        &__icon{
+            bottom:-9%;
+            left: 49%;
+            width: 1.5vw;
+        }
+    }
+    .contact-main{
+        &__name{
+            font-size: 1.9vw;
+        }
+    }
+    .contact{
+        height: 65vh;
+
+        &__bg{
+            height: 120vh;
+            top: -40vh;
+        }
+    }
+    .footer-main{
+        &__link{
+            font-size: 2.3vw;
+        }
+    }
+}
+
+@media (min-width:701px) and (max-width:1000px){
     .header{
         &::after{
             top: 45%;
         }
     }
     .nav{
-        width: 60%;
+        width: 80%;
         &_menu{
             li{
                 padding: 0 5px;
@@ -47,10 +142,10 @@
 
     .about{
         height: 35vh;
-        width: 95%;
+        width: 100%;
 
         &_title{
-            width: 20vw;
+            width: 23vw;
         }
 
         &_title-text{
@@ -60,71 +155,84 @@
         }
 
         &_text{
-            font-size: 1.4vw;
-            right: 1%;
+            font-size: .73rem;
+            right: 0%;
         }
     }
 
     .services-title{
         height: 20vh;
-        width: 75vw;
-        margin-left: 20vw;
+        width: 100vw;
+        margin-left: 0;
         &_text{
             font-size: 2.5vw;
-            left: 32%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,0);
         }
 
         &_icon{
-            left: 38%;
+            left: 48%;
+            width: 2vw;
         }
     }
 
     .services-text{
         height: 30vh;
-        width: 95vw;
-        padding-left: 18vw;
+        width: 100vw;
+        padding-left: 0;
         &__item{
           font-size:1rem;
           line-height: 2.9vh;
+          padding-right: 3.5vw;
         } 
 
         &__item--third{
-            padding-right: 7vw;
+            padding-right: 4vw;
         }
 
         &::before{
-            width: 45vw;
+            width: 50vw;
         }
     }
 
     .arrow{
-        height: 18vh;
+        height: 14vh;
     }
 
     .contact{
+        height: 40vh;
         &__bg{
-            height: 100vh;
-            top: -40vh;
+            height: 70vh;
+            top: -28vh;
         }
     }
 
     .contact-title{
-        height: 12vh;
+        height: 10vh;
 
         &__text{
             font-size: 2.5vw;
+        }
+        &__icon{
+            width: 2vw;
+            left: 49%;
+            bottom: -11%;
         }
     }
 
     .contact-main{
         width: 50vw;
+        height: 25vh;
         &__name{
-            font-size: 2.5vw;
+            margin: 0;
+            font-size: 2.3vw;
+            font-weight: 600;
         }
     }
     
     .contact-tel{
-        bottom: 46%;
+        bottom: 40%;
         right: 50%;
         width: 100%;
         transform: translate(50%,0%);
@@ -132,15 +240,59 @@
         
         &__text{
             font-size: 2.5vw;
-            margin-left: .5vw;
+            margin-left: 1vw;
         }
+        &__icon{
+            width: 4vw;
+        }
+    }
+
+    .contact-mail{
+        bottom: 20%;
+        right: 50%;
+        width: 100%;
+        transform: translate(50%,0%);
+        justify-content: center;
+
+        &__text{
+            font-size: 2.5vw;
+            margin-left: 1vw;
+        }
+
+        &__icon{
+            width: 6vw;
+        }
+    }
+
+    .footer{
+        height: 10vh;
+        &__bg-arrow{
+            top:-38%;
+        }
+        &__arrow{
+            width: 3vw;
+            top: -12%;
+            right: 48.5%;
+        }
+    }
+    .footer-main{
+        height: 100%;
+        &__link{
+            height: 100%;
+            font-size: 3vw;
+        }
+    }
+    .copyright{
+        bottom: 0; 
+        font-size: 1.6vw;
     }
 }
 
-@media (max-width:600px){
+@media (max-width:700px){
     .header{
         padding-top: 0;
         height: 40px;
+        margin-bottom: -8px;
         &::after{
             top: 40%;
             height: 1px;
@@ -149,11 +301,16 @@
     .nav{
         width:100%;
         &_link{
-            font-size: 2.5vw;
+            font-size: 2.8vw;
         }
         &_link::before,
         &_link::after{
             display: none;
+        }
+        &_menu{
+            li{
+                padding: 0 12px;
+            }
         }
     }
 
