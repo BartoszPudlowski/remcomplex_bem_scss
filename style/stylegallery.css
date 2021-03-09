@@ -400,6 +400,7 @@ footer{
 @media (max-width:600px){
     p{
         background-color:#A19F9C ;
+        color: white;
     }
     .roler{
         display: none;
@@ -463,6 +464,7 @@ footer{
     p{
         background-color:#A19F9C ;
         margin-left: 10rem;
+        color:white;
     }
     .roler{
         display: none;
@@ -516,6 +518,7 @@ footer{
     p{
         background-color:#A19F9C ;
         margin-left: 15rem;
+        color: white;
     }
     section{
         height: 95%;
