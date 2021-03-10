@@ -1,2 +1,2 @@
 # link to website
-  Bartek3b.github.io
+https://bartek3b.github.io/remcomplex_bem_scss/
