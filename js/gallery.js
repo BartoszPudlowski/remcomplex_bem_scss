@@ -20,7 +20,7 @@ if(galleryImages){
 
             let newImg = document.createElement("img");
             newImgWindow.appendChild(newImg);
-            newImg.setAttribute("src", "/images" + setNewImgUrl);
+            newImg.setAttribute("src", "../images" + setNewImgUrl);
         }
     });
 }

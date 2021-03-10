@@ -41,7 +41,7 @@ html {
 
 .header--down{
     position: sticky;
-    top: 95%;
+    top: 95vh;
     left: 0;
     width: 100%;
     height: 50px;
@@ -64,7 +64,7 @@ html {
     width: 55%;
     height: 100%;
     margin: auto;
-    &_menu{
+    &__menu{
         display: flex;
         justify-content: space-evenly;
         li{
@@ -76,7 +76,7 @@ html {
         }
 
     }
-    &_link{
+    &__link{
         text-decoration: none;
         color: black;
         font-size: 18px;
@@ -88,7 +88,7 @@ html {
         -webkit-tap-highlight-color: transparent;
     }
 
-    &_link::after{
+    &__link::after{
           content: '';
           position: absolute;
           display: block;
@@ -100,12 +100,12 @@ html {
           transition: width 0.3s ease-out;
         }
         
-    &_link:hover::after{
+    &__link:hover::after{
           width: 100%;
           transition: width 0.3s ease-out;
     }
 
-    &_link::before{
+    &__link::before{
         content: '';
         position: absolute;
         display: block;
@@ -117,7 +117,7 @@ html {
         transition: width 0.3s ease-out;
     }
 
-    &_link:hover::before{
+    &__link:hover::before{
       width: 100%;
       transition: width 0.3s ease-out;
     }
@@ -140,19 +140,19 @@ html {
     top: 5%;
     right: 30%;
   }
-  &_title--white{
+  &__title--white{
     font-size: 15vw;
     z-index: 100;
     color: white;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
   }
-  &_title--orange{
+  &__title--orange{
     color: $orange;
     font-size: 15vw;
     z-index: -100;
   }
-  &_nd-title{
+  &__nd-title{
     color: white;
     position: absolute;
     letter-spacing: .3rem;
@@ -163,14 +163,14 @@ html {
     left: 50%;
     bottom:43vh;
   }
-  &_icon-roller{
+  &__icon-roller{
     position: absolute;
     bottom: 32%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 4vw;
   }
-  &_icon-arrow{
+  &__icon-arrow{
     position: absolute;
     bottom: 2%;
     left: 50%;
@@ -208,14 +208,14 @@ html {
     border-bottom: 2px solid $orange;
     position: relative;
 
-    &_title{
+    &__title{
     position: relative;
     height: 100%;
     width: 18vw;
     border-right: 2px solid $orange;
     }
 
-    &_icon{
+    &__icon{
       position: absolute;
       top: 50%;
       right: 0;
@@ -224,7 +224,7 @@ html {
     }
 
 
-    &_title-text{
+    &__title-text{
       position: absolute;
       top: 50%;
       left: 50%;
@@ -236,7 +236,7 @@ html {
       font-weight: 600;
     }
 
-    &_text{
+    &__text{
       color: white;
       position: absolute;
       right: 3%;
@@ -256,12 +256,12 @@ html {
   align-items: center;
   justify-content: space-around;
 
-    &_item{
+    &__item{
     display: flex;
     align-items: center;
     }
 
-    &_text{
+    &__text{
     font-size:1.56vw;
     font-weight: 400;
     letter-spacing: 2px;
@@ -269,7 +269,7 @@ html {
     margin-left: 1rem ;
     }
 
-    &_icon{
+    &__icon{
       width: 5vw;
     }
 }
@@ -284,7 +284,7 @@ html {
     border-bottom: 2px solid $orange;
     border-left: 2px solid $orange;
   
-    &_text{
+    &__text{
       color: $orange-text;
       font-size: 1.5vw;
       font-family: $title-font;
@@ -295,7 +295,7 @@ html {
       top:67%;
     }
 
-    &_icon{
+    &__icon{
       position: absolute;
       left: 46.5%;
       bottom: -6%;

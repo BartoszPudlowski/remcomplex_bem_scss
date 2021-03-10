@@ -6,7 +6,7 @@
         .title{
             top: 5%;
         }
-        &_title--white{
+        &__title--white{
             -webkit-text-stroke-width: 2px;
         }
 
@@ -18,27 +18,27 @@
             width: 16vw;
         }
 
-        &_nd-title{
+        &__nd-title{
             top: 48vh;
         }
 
-        &_icon-roller{
+        &__icon-roller{
             width: 5vw;
         }
     }
 
     .about{
 
-        &_title{
+        &__title{
             width: 18vw;
         }
 
-        &_title-text{
+        &__title-text{
             font-size: 1.7vw;
             display: block;
         }
 
-        &_text{
+        &__text{
             font-size: .9rem;
             right: 0%;
         }
@@ -47,12 +47,12 @@
     .services-title{
         height: 20vh;
         width: 72vw;
-        &_text{
+        &__text{
             font-size: 2.3vw;
             left: 39%;
             top:50%;
         }
-        &_icon{
+        &__icon{
             left: 43.5%;
             bottom: -8%;
         }
@@ -103,13 +103,13 @@
     }
     .nav{
         width: 80%;
-        &_menu{
+        &__menu{
             li{
                 padding: 0 5px;
             }
         }
 
-        &_link{
+        &__link{
             font-size: 2vw;
         }
     }
@@ -119,7 +119,7 @@
         .title{
             top: 15%;
         }
-        &_title--white{
+        &__title--white{
             -webkit-text-stroke-width: 1px;
         }
 
@@ -131,11 +131,11 @@
             width: 18vw;
         }
 
-        &_nd-title{
+        &__nd-title{
             top: 45vh;
         }
 
-        &_icon-roller{
+        &__icon-roller{
             width: 5vw;
         }
     }
@@ -144,17 +144,17 @@
         height: 35vh;
         width: 100%;
 
-        &_title{
+        &__title{
             width: 23vw;
         }
 
-        &_title-text{
+        &__title-text{
             font-size: 2vw;
             display: block;
             // width: 60%;
         }
 
-        &_text{
+        &__text{
             font-size: .73rem;
             right: 0%;
         }
@@ -164,14 +164,14 @@
         height: 20vh;
         width: 100vw;
         margin-left: 0;
-        &_text{
+        &__text{
             font-size: 2.5vw;
             left: 50%;
             top: 50%;
             transform: translate(-50%,0);
         }
 
-        &_icon{
+        &__icon{
             left: 48%;
             width: 2vw;
         }
@@ -300,14 +300,14 @@
     }
     .nav{
         width:100%;
-        &_link{
+        &__link{
             font-size: 3.2vw;
         }
-        &_link::before,
-        &_link::after{
+        &__link::before,
+        &__link::after{
             display: none;
         }
-        &_menu{
+        &__menu{
             li{
                 padding: 0 13px;
                 // margin: 5px 0 ;
@@ -320,7 +320,7 @@
         .title{
             top: 10%;
         }
-        &_nd-title{
+        &__nd-title{
             top: 24.5vh;
         }
         &::after{
@@ -331,7 +331,7 @@
             width: 15vw;
             height: 1px;
         }
-        &_icon-arrow{
+        &__icon-arrow{
             width: 4vw;
         }
     }
@@ -341,16 +341,16 @@
        position: static;
        height:55vh;
        margin-bottom: 1rem;
-       &_title{
+       &__title{
            height: 11%;
            width: 100%;
            border-right:none;
            border-bottom: 1px solid $orange;
        }
-       &_title-text{
+       &__title-text{
            font-size: 4.5vw;
        }
-       &_text{
+       &__text{
            width: 100%;
            right: -3%;
            font-size: 1.6vh;
@@ -358,23 +358,23 @@
            transform: translate(0,0);
            padding-left: 6vw;
        }
-       &_icon{
+       &__icon{
            display: none;
        }
    }
    .icons{
-    &_item{
+    &__item{
         width: 40%;
     }
 
-    &_item--off{
+    &__item--off{
         display: none;
     }
 
-    &_icon{
+    &__icon{
         width: 12vw;
     }
-    &_text{
+    &__text{
         font-size: 2.5vw;
     }
    }
@@ -384,13 +384,13 @@
        margin-left: 0;
        height: 15vh;
        width: 100%;
-       &_text{
+       &__text{
            font-size: 4.5vw;
            left: 50%;
            top: 50%;
            transform: translate(-50%,0);
        }
-       &_icon{
+       &__icon{
            display: none;
        }
    }
