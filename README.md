@@ -1,2 +1,2 @@
 # link to website
-remcomplex.com.pl
+http://remcomplex.com.pl
